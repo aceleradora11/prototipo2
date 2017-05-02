@@ -33,14 +33,14 @@
 	transition-delay: .2s;
 }
 .box{
-	
+
     left: 50%;
 	height: 720px;
 	width: 405px;
 	position: absolute;
 	margin-left: -360px;
 	background-color: white;
-	
+
 }
 #close{
 	color: #fff;
@@ -142,10 +142,13 @@ ul li a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Lato', sans-serif;
+
 }
 .TagContent{
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	flex-direction: column;
 	background-color: #f9f9f9;
 	color: black;
@@ -153,6 +156,15 @@ ul li a{
 	height: 75%;
 	width: 100%;
 	background-color: white;
+}
+.ButtonTag{
+	width: 40%;
+	height: 25px;
+	background-color: #3D8EB9;
+	margin: 15px;
+	float: right;
+	border: none;
+	color: white;
 }
 .Box{
 	width: 60%;
@@ -176,7 +188,7 @@ ul li a{
 	height: 10%;
 	font-family: 'Lato', sans-serif;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -195,6 +207,12 @@ ul li a{
 	width: 80%;
 	background-color: white;
 	border: none;
+}
+.u-fontSizeMedium{
+	font-size: 1.3em;
+}
+.u-marginSmall{
+	margin: 6px;
 }
 .u-coloRed{
 	background-color: #EB6361;
@@ -217,7 +235,7 @@ ul li a{
 	height: 100vh;
 	background-color: #ecf0f1;
 	background-size: cover;
-	display: flex; 
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 
@@ -242,12 +260,12 @@ ul li a{
 .BoxFunction{
 	height: 50%;
 	width: 23%;
-	
+
 }
 .BoxIcon{
 	height: 40%;
 	width: 100%;
-	
+
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -297,12 +315,7 @@ ul li a{
 	font-size: 1.3em;
    font-family: 'Lato', sans-serif;
 }
-.ButtonTag{
-	background-color: #3D8EB9;
-	margin-left: 15px;
-	border: none;
-	color: white;
-}
+
 
 
 .BoxCards{
@@ -312,7 +325,7 @@ ul li a{
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	
+
 }
 .SectionCards{
 	z-index: 1;
@@ -328,7 +341,7 @@ ul li a{
 	position: relative;
 	width: 90%;
 	height: 48%;
-  
+
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -385,7 +398,7 @@ ul li a{
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
-	
+
 
 }
 .LineDescription{
@@ -394,12 +407,12 @@ ul li a{
 	display: flex;
     justify-content: space-between;
 	background-color: blue;
-	
+
 }
 .LogoCard{
 	width: 20%;
 	height: 100%;
-	
+
 }
 .TextCard{
 	text-align: center;
@@ -407,7 +420,7 @@ ul li a{
 	height: 100%;
 	display: flex;
 	justify-content: center;
-	
+
 }
 .List{
 	width: 32%;
